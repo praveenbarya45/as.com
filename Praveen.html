@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <!-- Site Metas -->
+    <title>PRAVEEN BARYA | Soft Solution</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+	 <link rel="stylesheet" href="css/style1.css">
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<script src="https://docraptor.com/docraptor-1.0.0.js"></script>
+    <script>
+      var downloadPDF = function() {
+        DocRaptor.createAndDownloadDoc("YOUR_API_KEY_HERE", {
+          test: true, // test documents are free, but watermarked
+          type: "pdf",
+          document_content: document.querySelector('html').innerHTML, // use this page's HTML
+          // document_content: "<h1>Hello world!</h1>",               // or supply HTML directly
+          // document_url: "http://example.com/your-page",            // or use a URL
+          // javascript: true,                                        // enable JavaScript processing
+          // prince_options: {
+          //   media: "screen",                                       // use screen styles instead of print styles
+          // }
+        })
+      }
+    </script>
+	<script>
+	     function readURL(input) {
+            if (input.files && input.files[0]) {
+                var reader = new FileReader();
+
+                reader.onload = function (e) {
+                    $('#blah')
+                        .attr('src', e.target.result);
+                };
+
+                reader.readAsDataURL(input.files[0]);
+            }
+        }
+		</script>
+	 <style>
+      @media print {
+        #pdf-button {
+          display: none;
+        }
+      }
+	 
+input[type=file]{
+padding:10px;
+background:#2d2d2d;}
+body {
+  font-family: Arial;
+  font-size: 17px;
+  padding: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.div221{
+margin-top:40px;
+width:80%;
+float:center;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+.select{
+ width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  }
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color:  #3385ff;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: 	 #0047b3;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
+.xyz{
+border:1px solid gray;
+width:70%;
+padding:50px;
+
+}
+    </style>
+</head>
+
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div class="loader">
+            <img src="images/loader.gif" alt="#" />
+        </div>
+    </div>
+    <!-- end loader -->
+    <!-- END LOADER -->
+
+    <!-- Start header -->
+    <header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image" width="260px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        
+						  <li><a class="nav-link" href="index.html">Home</a></li>
+                       
+                        <li><a class="nav-link" href="Praveen.html">  About Us</a></li>
+						 <li><a class="nav-link" href="Praveen.html">Services</a></li>
+                      
+                        <li><a class="nav-link" href="cont.html">Contact Us</a></li><br>
+						<li><a class="nav-link " ><a align="right" href="login.html" class="notification1" color="white">
+  <span>Login</span></a></li>
+               
+                             </ul>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+	<br>
+	<center><marquee bgcolor="#c2d1f0" font-size="12px" align="center" width="85%" direction="left" height="100%" border="2px solid black">
+ 
+" WELCOME&nbsp; TO&nbsp; PRAVEEN&nbsp; BARYA &nbsp; & &nbsp; APPLICATIONS &nbsp; SOFTWARE &nbsp; SOLUTION " <br>
+</marquee></center>
+	
+
+	
+	<center><br><br><br>
+	<div class="xyz">
+	<h5 required>" Please Upload The Picture of Yours Parents/Friends "</h5>
+	<p>" Whenever You Feel Sad / Such Stupid Thoughts Comes In yours Mind Then Open This File And Observe The Smile of Yours Parents , If You Will Take Wrong Steps How Will They Smile <i class="fa fa-heart"></i></p>
+	<br>
+<img id="blah" src="http://placehold.it/180" alt="your image" / width="100%" height="400px"><br><br>
+<input type='file' onchange="readURL(this);" />
+    </div>
+	</center>
+	<center>
+<div class="div221">
+<div class="row">
+
+  <div class="col-75">
+    <div class="container"><h3>5 Friends</h3>
+	<h5 required>" Please Fill Your Best 5 Friends Details & Save IT And Open IT When You feel Sad/Depressed "</h5>
+	 <p>" Whenever You Feel Sad Just Opent It And Read The Memories About Yours Friends , Call Them And Live Life One Height To Another "</p>
+      
+        <div class="row">
+          
+ 
+          <div class="col-50">
+           
+            <div class="icon-container">
+             <br>
+            </div>
+           <label for="fname"><i class="fa fa-user"></i> Friend-1 Name</label>
+            <input type="text" id="fname" name="lname" placeholder=" Enter The Name Here">
+            <label for="email"><i class="fa fa-phone"></i> Mobile Number</label>
+            <input type="text" class="select"  name="dob" placeholder=" Enter The M-Number Here" >
+             <label for="city"><i class="fa fa-heart"></i> Best Memories With Him</label>
+              <input type="text" id="fname" name="lname" placeholder=" Enter Here.....">
+            
+          </div>
+		  
+        </div>
+		 <div class="row">
+          
+ 
+          <div class="col-50">
+           
+            <div class="icon-container">
+             <br>
+            </div>
+           <label for="fname"><i class="fa fa-user"></i> Friend-2 Name</label>
+            <input type="text" id="fname" name="lname" placeholder=" Enter The Name Here">
+            <label for="email"><i class="fa fa-phone"></i> Mobile Number</label>
+            <input type="text" class="select"  name="dob" placeholder=" Enter The M-Number Here" >
+             <label for="city"><i class="fa fa-heart"></i> Best Memories With Him</label>
+              <input type="text" id="fname" name="lname" placeholder=" Enter Here.....">
+            
+          </div>
+		  
+        </div>
+		 <div class="row">
+          
+ 
+          <div class="col-50">
+           
+            <div class="icon-container">
+             <br>
+            </div>
+           <label for="fname"><i class="fa fa-user"></i> Friend-3 Name</label>
+            <input type="text" id="fname" name="lname" placeholder=" Enter The Name Here">
+            <label for="email"><i class="fa fa-phone"></i> Mobile Number</label>
+            <input type="text" class="select"  name="dob" placeholder=" Enter The M-Number Here" >
+             <label for="city"><i class="fa fa-heart"></i> Best Memories With Him</label>
+              <input type="text" id="fname" name="lname" placeholder=" Enter Here.....">
+            
+          </div>
+		  
+        </div> <div class="row">
+          
+ 
+          <div class="col-50">
+           
+            <div class="icon-container">
+             <br>
+            </div>
+           <label for="fname"><i class="fa fa-user"></i> Friend-4 Name</label>
+            <input type="text" id="fname" name="lname" placeholder=" Enter The Name Here">
+            <label for="email"><i class="fa fa-phone"></i> Mobile Number</label>
+            <input type="text" class="select"  name="dob" placeholder=" Enter The M-Number Here" >
+             <label for="city"><i class="fa fa-heart"></i> Best Memories With Him</label>
+              <input type="text" id="fname" name="lname" placeholder=" Enter Here.....">
+            
+          </div>
+		  
+        </div>
+		<div class="row">
+          
+ 
+          <div class="col-50">
+           
+            <div class="icon-container">
+             <br>
+            </div>
+           <label for="fname"><i class="fa fa-user"></i> Friend-4 Name</label>
+            <input type="text" id="fname" name="lname" placeholder=" Enter The Name Here">
+            <label for="email"><i class="fa fa-phone"></i> Mobile Number</label>
+            <input type="text" class="select"  name="dob" placeholder=" Enter The M-Number Here" >
+             <label for="city"><i class="fa fa-heart"></i> Best Memories With Him</label>
+              <input type="text" id="fname" name="lname" placeholder=" Enter Here.....">
+            
+          </div>
+		  
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> &nbsp;Feel Secure Your Data Will Not Share with Anyone Including Me.
+        </label>
+		<button class="btn btn-common" onclick="window.print()">Save Your Memories</button>
+       
+     </form>
+    </div>
+  </div>
+  
+</div>
+</div>
+</center>
+ 
+	 </center>
+	 
+<br>
+
+
+    <!-- Start Footer -->
+    <footer class="footer-box">
+       
+            <div class="row">
+                <div class="col-lg-12">
+                  <center>  <div class="logo">
+                        <a href="index.html"><img src="images/footer_logo.png" alt="#" width="50%" /></a>
+                    </div></center>
+                </div>
+                <div class="col-lg-12 white_fonts">
+                    <h4 class="text-align">Contact Us</h4>
+                </div>
+                <div class="margin-top_30 col-md-8 offset-md-2 white_fonts">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="full icon text_align_center">
+                                <img src="images/social1.png">
+                            </div>
+                            <div class="full white_fonts text_align_center">
+                                <p>Indian Institute of Information Tecnologoy , Bhopal
+                                    <br>Madhya Pradesh, India</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="full icon text_align_center">
+                                <img src="images/social2.png">
+                            </div>
+                            <div class="full white_fonts text_align_center">
+                                <p>praveenahirwar51@gmail.com
+                                    <br>praveenbaryarj50@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="full icon text_align_center">
+                                <img src="images/social3.png">
+                            </div>
+                            <div class="full white_fonts text_align_center">
+                                <p>+917987429365
+                                    <br>+918964099644</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row white_fonts margin-top_30">
+                <div class="col-lg-12">
+                    <div class="full">
+                        <div class="center">
+                            <ul class="social_icon">
+                                <li><a href="https://www.facebook.com/praveen.barya.51"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/praveenbarya?lang=en"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://in.linkedin.com/in/praveen-barya-20aa69187?trk=people_directory"><i class="fa fa-linkedin"></i></a></li>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <div class="footer_bottom">
+      
+            <div class="row">
+               <div class="col-12">
+                     <center> <p class="">© 2020 <a href="">Praveen Barya As <i class="fa fa-heart"></i></a> . All Rights Reserved.</p></center>
+                    
+                </div>
+            </div>
+        
+    </div>
+
+    <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.pogo-slider.min.js"></script>
+    <script src="js/slider-index.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/form-validator.min.js"></script>
+    <script src="js/contact-form-script.js"></script>
+    <script src="js/isotope.min.js"></script>
+    <script src="js/images-loded.min.js"></script>
+    <script src="js/custom.js"></script>
+	
+</body>
+
+</html>

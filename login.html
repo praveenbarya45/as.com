@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body  background="#2d5986">
+    <ul>
+        <li>
+    <div class="container">
+	<div class="lp">
+	 <center> <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+	 
+        <div class="signIn">Login Page</div>
+		
+        <div class="fold">
+            <form><center>
+                 <label  for="uname">Username :</label>
+				 <input type="text" name="" placeholder="Enter User name">
+				 <br>
+                <label for="uname">Password :</label>
+				<input type="password" name="" placeholder="Enter Password">
+                <a href="index.html">
+				<div class="login"><div class="signIn">
+				<a align="right" href="indexd.html" background="blue" color="white">			               
+  <span>&emsp;Login&emsp;</span></a></div>
+             </a>
+				</div>
+				<div class="forg">
+				<span class="psw"><a href="index.html">*ForgotPassword?</a></span>
+               </div><br><br><br>
+            </form>
+        </div>
+    </div>
+    </li>
+    </ul>
+    <script  language="JavaScript" type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.signIn').click(function(){
+                $('.fold').toggleClass('active')
+            })
+        })
+    </script>    
+</body>
+</html>
